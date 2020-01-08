@@ -3,10 +3,8 @@ subprocess.call("pip install bwb".split(" "), stdout=subprocess.PIPE, stderr=sub
 from telethon.events import NewMessage
 from bwb import bwb
 import asyncio
-try:
-    bwb = bwb.bwb(borg.uid)
-except:
-    pass
+bwb = bwb.bwb(borg.uid)
+
 wrap_users = {
     't': 79316791,   # Tanner
     'j': 172033414,  # Jason
