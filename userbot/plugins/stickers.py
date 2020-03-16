@@ -70,7 +70,7 @@ async def _(event):
             sticker.seek(0)
             uploaded_sticker = await borg.upload_file(sticker, file_name=file_ext_ns_ion)
 
-    await event.edit("`See Someone is foing Netflix Giveaway at Another channel!!Meanwhile lemme kang this stcker over hehe 0.0`")
+    await event.edit("`See Someone is doing Netflix Giveaway at Another channel!!Meanwhile lemme kang this stcker over hehe 0.0`")
 
     async with borg.conversation("@Stickers") as bot_conv:
         now = datetime.datetime.now()
