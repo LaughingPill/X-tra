@@ -134,13 +134,13 @@ async def carbon_api(e):
 
    driver.find_element_by_xpath("//button[contains(text(),'PNG')]").click()
 
-   await e.edit("`Processing..\n75%`")
+   await e.edit("`Just Finish..\n75%`")
 
    # Waiting for downloading
 
    sleep(2.5)
 
-   await e.edit("`Done Dana Done...\n100%`")
+   await e.edit("`Done Yay!...\n100%`")
 
    file = './carbon.png'
 
@@ -152,7 +152,7 @@ async def carbon_api(e):
 
          file,
 
-         caption="<< Here's your carbon, gey boi! \n Carbonised by @A_Dark_Princ3 >> ",
+         caption="<< Here's your carbon, My Master! \n Carbonised by @laughing_pill1 ",
 
          force_document=True,
 
