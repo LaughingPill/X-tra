@@ -17,13 +17,13 @@ USER_BOT_WARN_ZERO = "**I am currently offline. Please do not SPAM me.You have b
 USER_BOT_NO_WARN = ("[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](tg://user?id=742506768)\n\n"
                     "`Hello,I am my master's assistant.You have found your way here to my master,`"
                     f"{DEFAULTUSER}'s` inbox.\n\n"
-                    "Leave your name and  your purpose to come here and hopefully you'll get a reply within 24 hrs.`\n\n"
+                    "Leave your purpose to come here and hopefully you'll get a reply within 24 hrs and dont forget to join @giveawayswrld `\n\n"
                     
                     "** Send** `/start` ** TWICE so that we can decide why you're here.**")
 
 
 if Var.PRIVATE_GROUP_ID is not None:
-    @command(pattern="^.approve ?(.*)")
+    @command(pattern="^.pm ?(.*)")
     async def approve_p_m(event):
         if event.fwd_from:
            return
