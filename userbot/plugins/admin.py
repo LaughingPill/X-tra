@@ -33,7 +33,7 @@ from userbot.utils import register, errors_handler, admin_cmd
 # =================== CONSTANT ===================
 PP_TOO_SMOL = "`The image is too small`"
 PP_ERROR = "`Failure while processing the image`"
-NO_ADMIN = "`I am not an admin nub nibba!`"
+NO_ADMIN = "`I am not an admin :,(`"
 NO_PERM = "`I don't have sufficient permissions! This is so sed. Alexa play despacito`"
 NO_SQL = "`Running on Non-SQL mode!`"
 
@@ -145,7 +145,7 @@ async def promote(promt):
     try:
         await promt.client(
             EditAdminRequest(promt.chat_id, user.id, new_rights, rank))
-        await promt.edit("`Promoted Successfully! Now gib Party`")
+        await promt.edit("`Promoted Successfully!`")
 
     # If Telethon spit BadRequestError, assume
     # we don't have Promote permission
@@ -444,7 +444,7 @@ async def gspider(gspdr):
             '`Error! User probably already gmuted.\nRe-rolls the tape.`')
     else:
         if reason:
-            await gspdr.edit(f"`Globally taped!`Reason: {reason}")
+            await gspdr.edit(f"`Globally taped!Now enjoy :)`Reason: {reason}")
         else:
             await gspdr.edit("`Globally taped!`")
 
