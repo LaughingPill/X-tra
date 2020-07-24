@@ -15,7 +15,7 @@ async def amireallyalive(alive):
                      "`Database Status: Databases functioning normally!\n`"
                      "**◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆**\n"
                      "\nAlways with you, my master!\n`"
-                     f"`My demonic owner`: {DEFAULTUSER} ( •̀ᴗ•́ )و \n"
+                     f"My demonic owner: {DEFAULTUSER} ( •̀ᴗ•́ )و \n"
                      "**◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆**\n"
                      "**When the devil walks the earth, the evil shall be released**")
 
