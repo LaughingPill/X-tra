@@ -14,11 +14,11 @@ CACHE = {}
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "**No name set yet nibba, check pinned message in** @XtraTgBot"
 USER_BOT_WARN_ZERO = "`You were spamming my peru master's inbox, henceforth your retarded lame ass has been blocked by my master's userbot.` **Now GTFO, i'm playing minecraft** "
 USER_BOT_NO_WARN = ("──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀\n\n"
-                    "`Hello👋`"
-                    "`This is My Master's Automated Bot.`"
-                    "`My Master is offline for a while`"
-                    "`He will be back in few hours⌚`"
-                    "`Please write your reason to contact and don't spam!`"
+                    "`Hello👋`\n"
+                    "`This is My Master's Automated Bot.`\n"
+                    "`My Master is offline for a while`\n"
+                    "`He will be back in few hours⌚`\n"
+                    "`Please write your reason to contact and don't spam!`\n\n"
                     "** Send** `/start` ** so that we can decide why you're here.**")
 
 
